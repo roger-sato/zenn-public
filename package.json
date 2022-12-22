@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preview": "npx zenn pewview",
-    "new:article": "npx zenn new:article"
+    "preview": "npx zenn preview",
+    "new:article": "npx zenn new:article --slug $(date +%yy%mm%dd-%Hh%Mm%Ss)"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "zenn-cli": "^0.1.90"
+    "zenn-cli": "^0.1.134"
   }
 }
