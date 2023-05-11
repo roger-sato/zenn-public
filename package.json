@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preview": "npx zenn preview",
-    "new:article": "npx zenn new:article --slug $(git rev-parse --abbrev-ref HEAD)-$(date +%yy%mm%dd)",
-    "new:article2": "npx zenn new:article --slug $npm_config_slug"
+    "new:article": "SLUG_PRE=$(git rev-parse --abbrev-ref HEAD) && npx zenn new:article --slug ${SLUG_PRE}-$(date +%yy%mm%dd) && mkdir -p images/$SLUG_PRE",
+    "clean:images": "find ./images -depth -type d -empty -exec rmdir {} \\;"
   },
   "keywords": [],
   "author": "",
