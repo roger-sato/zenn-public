@@ -3,7 +3,7 @@ title: "AWSのCodeBuildでGCRにあるイメージを使う"
 emoji: "👏"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["AWS", "GCR", "Docker"]
-published: false
+published: true
 ---
 
 CodeBuild で下のような GCR にあるイメージをベースとする Dockerfile のビルドをしたかったんですが
