@@ -3,7 +3,7 @@ title: "Zennの記事の画像をいい感じに管理するようにした"
 emoji: "📘"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Zenn", "ZennCLI"]
-published: false
+published: true
 ---
 
 [この記事](https://zenn.dev/lovablepleiad/articles/zenn_good-slug-23y01m12d)を少し改良した話になります。
